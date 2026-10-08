@@ -32,8 +32,8 @@ Les utilisateurs doivent pouvoir :
 
 ### Liens
 
-- URL de la solution : [À compléter](https://your-solution-url.com)
-- URL du site en ligne : [À compléter](https://your-live-site-url.com)
+- URL de la solution : [faq-accordion-main](https://github.com/joelavj/Frontend-Mentor/tree/main/faq-accordion-main)
+- URL du site en ligne : [https://joelavj.github.io/faq-accordion-main/index.html](https://joelavj.github.io/Frontend-Mentor/faq-accordion-main/index.html)
 
 ## Mon processus
 
