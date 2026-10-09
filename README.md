@@ -17,6 +17,7 @@ Ce dépôt rassemble mes solutions aux défis de [Frontend Mentor](https://www.f
 | --- | --- | --- | --- | --- |
 | [FAQ accordion](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz) | Newbie | HTML, CSS, JavaScript | [Dossier](./faq-accordion) | [Voir](https://joelavj.github.io/Frontend-Mentor/faq-accordion-main/index.html) |
 | [Product preview card component](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa) | Newbie | HTML, CSS | [Dossier](./product-preview-card-component-main) | [Voir](https://joelavj.github.io/Frontend-Mentor/product-preview-card-component-main/index.html) |
+| [Four card feature section](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK) | Newbie | HTML, CSS | [Dossier](./four-card-feature-section) | [Voir](https://joelavj.github.io/four-card-feature-section) |
 
 <!-- Ajoute une ligne par défi terminé, en gardant le même format. -->
 
