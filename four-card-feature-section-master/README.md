@@ -35,8 +35,8 @@ L'utilisateur doit pouvoir :
 
 ### Liens
 
-- Solution (dépôt GitHub) : [https://github.com/joelavj/four-card-feature-section](https://github.com/joelavj/four-card-feature-section)
-- Site en ligne : [https://joelavj.github.io/four-card-feature-section](https://joelavj.github.io/four-card-feature-section)
+- Solution (dépôt GitHub) : [https://github.com/joelavj/Frontend-Mentor/tree/main/four-card-feature-section-master](https://github.com/joelavj/Frontend-Mentor/tree/main/four-card-feature-section-master)
+- Site en ligne : [https://joelavj.github.io/Frontend-Mentor/four-card-feature-section-master/index.html](https://joelavj.github.io/Frontend-Mentor/four-card-feature-section-master/index.html)
 
 > Vérifie et adapte ces deux liens à ton dépôt réel.
 
