@@ -18,6 +18,7 @@ Ce dépôt rassemble mes solutions aux défis de [Frontend Mentor](https://www.f
 | [FAQ accordion](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz) | Newbie | HTML, CSS, JavaScript | [Dossier](./faq-accordion) | [Voir](https://joelavj.github.io/Frontend-Mentor/faq-accordion-main/index.html) |
 | [Product preview card component](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa) | Newbie | HTML, CSS | [Dossier](./product-preview-card-component-main) | [Voir](https://joelavj.github.io/Frontend-Mentor/product-preview-card-component-main/index.html) |
 | [Four card feature section](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK) | Newbie | HTML, CSS | [Dossier](./four-card-feature-section-master) | [Voir](https://joelavj.github.io/Frontend-Mentor/four-card-feature-section-master/index.html) |
+| [Newsletter sign-up form with success message](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv) | Newbie | HTML, CSS | [Dossier](./newsletter-sign-up-with-success-message-main) | [Voir](https://joelavj.github.io/Frontend-Mentor/newsletter-sign-up-with-success-message-main/index.html) |
 
 <!-- Ajoute une ligne par défi terminé, en gardant le même format. -->
 
