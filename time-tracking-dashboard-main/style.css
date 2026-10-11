@@ -1,0 +1,292 @@
+@font-face {
+    font-family: Rubik;
+    src: url('./assets/fonts/Rubik-VariableFont_wght.ttf');
+    font-weight: 300 400 500;
+    font-display: swap;
+}
+
+.attribution {
+    font-size: 0.6875rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.active {
+    color: #fff;
+    font-size: 1rem;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Rubik;
+    font-size: 18px;
+    background-color: hsl(226, 43%, 10%);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+.header {
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.profil {
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 25px;
+}
+
+.photo-profil {
+    width: 75px;
+    height: auto;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+h1 span:first-child {
+    font-size: 1rem;
+    font-weight: 500;
+    color: hsl(236, 100%, 87%);
+}
+
+h1 span:last-child {
+    font-size: 1.5rem;
+    width: max-content;
+    font-weight: 300;
+    color: hsl(236, 100%, 87%);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+button {
+    border: none;
+    background-color: inherit;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: hsl(235, 45%, 61%);
+    cursor: pointer;
+}
+
+button:hover {
+    color: #fff;
+}
+
+li {
+    list-style-type: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.card-main {
+    border-radius: 1rem;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-main>img {
+    position: absolute;
+    right: 20px;
+    top: -10px;
+}
+
+.card {
+    border-radius: 1rem;
+    background-color: hsl(235, 46%, 20%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    z-index: 1;
+}
+
+.card:hover {
+    background-color: hsl(235, 46%, 33%);
+}
+
+.card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.card-title img:hover {
+    transform: scale(1.1);
+}
+
+.card-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.data-now {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.data-previous {
+    color: hsl(236, 100%, 87%);
+}
+
+#work {
+    background-color: hsl(15, 100%, 70%);
+}
+
+#play {
+    background-color: hsl(195, 74%, 62%);
+}
+
+#study {
+    background-color: hsl(348, 100%, 68%);
+}
+
+#exercise {
+    background-color: hsl(145, 58%, 55%);
+}
+
+#social {
+    background-color: hsl(264, 64%, 52%);
+}
+
+#self-care {
+    background-color: hsl(43, 84%, 65%);
+}
+
+@media (min-width: 500px) {
+    .header {
+        flex-direction: row;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .main {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card-main {
+        flex: 1 0 350px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    body {
+        display: grid;
+        grid-template-columns: 230px 790px;
+        grid-template-rows: 1fr 50px;
+        grid-template-areas:
+            "a b"
+            "c d";
+        place-items: center;
+        width: 1200px;
+        height: 100dvh;
+        margin: 0 auto;
+    }
+
+    .header {
+        flex-direction: column;
+        width: 100%;
+        grid-area: a;
+    }
+
+    .profil {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px 20px;
+    }
+
+    h1 span:last-child {
+        width: min-content;
+        font-size: 2.5rem;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .main {
+        grid-area: b;
+        display: grid;
+        grid-template-columns: repeat(3, 250px);
+        grid-template-rows: repeat(2, auto);
+        gap: 20px;
+    }
+
+    .card-main {
+        height: 200px;
+    }
+
+    .card {
+        padding: 30px;
+    }
+
+    .card-data {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    footer {
+        grid-area: d;
+        justify-self: flex-start;
+    }
+
+}

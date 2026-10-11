@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+</head>
+
+<body>
+  <div class="header">
+    <div class="profil">
+      <img src="./assets/images/image-jeremy.png" class="photo-profil">
+      <h1>
+        <span>Report for</span>
+        <span>Jeremy Robson</span>
+      </h1>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <button id="daily" onclick="getData('daily')">Daily</button>
+        </li>
+        <li>
+          <button id="weekly" onclick="getData('weekly')">Weekly</button>
+        </li>
+        <li>
+          <button id="monthly" onclick="getData('monthly')">Monthly</button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="main">
+
+  </div>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/joelavj">joelavj</a>.
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
